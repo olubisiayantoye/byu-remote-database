@@ -42,8 +42,8 @@ INSERT INTO classification (classification_name) VALUES ('Sedan'), ('SUV'), ('Tr
 -- Insert into inventory
 INSERT INTO inventory (inv_make, inv_model, inv_year, inv_description, inv_image, inv_thumbnail, inv_price, inv_miles, inv_color, classification_id)
 VALUES 
-('Toyota', 'Corolla', '2020', 'Reliable compact car', 'toyota_corolla.jpg', 'toyota_corolla_thumb.jpg', 20000.00, 30000, 'Blue', 1),
-('Ford', 'Explorer', '2021', 'Spacious family SUV', 'ford_explorer.jpg', 'ford_explorer_thumb.jpg', 35000.00, 15000, 'Black', 2);
+('Toyota', 'Corolla', '2020', 'Reliable compact car', '/images/toyota_corolla.jpg', '/images/toyota_corolla_thumb.jpg', 20000.00, 30000, 'Blue', 1),
+('Ford', 'Explorer', '2021', 'Spacious family SUV', '/images/ford_explorer.jpg', '/images/ford_explorer_thumb.jpg', 35000.00, 15000, 'Black', 2);
 
 -- Insert into account
 INSERT INTO account (account_firstname, account_lastname, account_email, account_password, account_type)
