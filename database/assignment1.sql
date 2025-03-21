@@ -1,4 +1,4 @@
-
+--DATABASE byu-CSE340-db
 
 --#####.1. Create the classification Table 
 CREATE TABLE classification (
